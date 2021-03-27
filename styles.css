@@ -39,3 +39,32 @@ hr{
     color:var(--primary-color);
 
 }
+
+.non-bullet{
+    list-style: none;
+}
+
+.list-inline{
+    display: inline;
+    padding: 0rem 1rem;
+}
+
+.navigation{
+    background-color: var(--primary-color);
+    padding: 0.5rem;
+    
+}
+
+.navigation .nav-pills{
+    text-align: right;
+    color: white;
+}
+
+.navigation .nav-brand{
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: white;
+}
+.navigation .active-link{
+    font-weight: bold;
+}
